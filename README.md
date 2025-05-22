@@ -10,12 +10,13 @@ The models aim to capture the degradation behavior of lithium-ion batteries unde
 2. Install the custom parameter set used in this work.
    - pip install -e pybamm-parameter-set-Jeong2024
 
-## 1. EM testbed
-- Capacity degradation validation results of developed electrochemical-thermal-aging model
-## 2. ECM+aging model
-- Validation results of equivalent circuit model
-- Validataion results of semi-empirical aging models (calendar & cycling) 
-## 3. Example run
-- Example run of EM testbed 
-- Example run of ECM+aging model
-- Grid samples of ECM+aging model
+## Project structure
+1. EM testbed/
+   - Capacity degradation validation results using the electrochemical-thermal-aging model.
+2. ECM+aging model/
+   - Validation results of equivalent circuit model (ECM).
+   - Validataion results of semi-empirical aging models (calendar & cycling degradation) 
+3. Example run/
+   - Example run of the EM testbed 
+   - Example run of the ECM+aging model
+   - Grid sampling examples for the ECM+aging model
