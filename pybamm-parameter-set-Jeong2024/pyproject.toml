@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Jeong2024"
+version = "0.0.5"
+authors = [
+  { name="Woohyun Jeong", email="w.jeong@kaist.ac.kr" },
+]
+description = "Parameters from Mohtat & newly fitted degradation parameters"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", 
+    "Operating System :: OS Independent",
+] # Just from Frank2023 from Collath2024
+
+
+[project.entry-points.pybamm_parameter_sets]
+Jeong2024 = "Jeong2024.Jeong2024:get_parameter_values"
