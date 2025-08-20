@@ -20,7 +20,7 @@ Additionally, it includes the results of prior knowledge-guided Bayesian optimiz
    - Simulation examples of the EM testbed model and ECM+aging model, which allow users to modify input parameters.
    - Grid samples used for constructing the ECM+aging interpolation model, used as a prior knowledge in Bayesian optimization.
 4. PrBO
-- Initial dataset obtained using the ECM+aging model.
-- Prior knowledge-guided Bayesian optimization to efficiently identify optimal charging strategies.
-- 
+   - Initial dataset obtained using the ECM+aging model.
+   - Prior knowledge-guided Bayesian optimization to efficiently identify optimal charging strategies.
+ 
    
