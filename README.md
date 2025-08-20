@@ -1,7 +1,7 @@
 # PrBO_for_LIBs
 This repository contains modeling results for two battery models with different fidelity levels, employed in the study 
 **"Health-Conscious Charging of Lithium-ion Batteries Using Bayesian Optimization Guided by a Semi-Empirical Aging Model"**
-The models aim to capture the degradation behavior of lithium-ion batteries under various charging conditions while maintaining a balance between accuracy and computational efficiency.
+Additionally, it includes the results of prior knowledge-guided Bayesian optimization (PrBO) method applied to optimize charging strategies based on these models. 
 
 ## Installation
 1. Create a new virtual environment and install PyBaMM.
@@ -19,3 +19,8 @@ The models aim to capture the degradation behavior of lithium-ion batteries unde
 3. Model runs
    - Simulation examples of the EM testbed model and ECM+aging model, which allow users to modify input parameters.
    - Grid samples used for constructing the ECM+aging interpolation model, used as a prior knowledge in Bayesian optimization.
+4. PrBO
+- Initial dataset obtained using the ECM+aging model.
+- Prior knowledge-guided Bayesian optimization to efficiently identify optimal charging strategies.
+- 
+   
